@@ -5,7 +5,7 @@ import Block from "./Blog";
 import Link from "next/link";
 import PropertyIcon from "../../public/images/property.svg";
 import firstcardIcon from "../../public/images/firstcard.svg";
-import phoneIcon from "../../public/images/phoneicon.svg";
+// import phoneIcon from "../../public/images/phoneicon.svg";
 import login from "../../public/images/login-profile.svg";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
@@ -54,7 +54,7 @@ const Header = () => {
             paragraph={"Start earning 30mins"}
           />
           <Block
-            imgSrc={phoneIcon}
+            imgSrc={firstcardIcon}
             title={"0190910"}
             paragraph={"call us to book now"}
           />
