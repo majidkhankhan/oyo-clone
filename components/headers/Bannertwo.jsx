@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import FireImg from "@/public/images/fire.jpg";
+import FireImg from "../../public/images/fire.jpg";
 const Bannertwo = () => {
   return (
     <div className="flex justify-between items-center my-14 border-2 border-gray-300 px-5">

@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Logo from "@/public/images/logo.png";
-import global from "@/public/images/global-partner-svg.svg";
+import Logo from "../../public/images//logo.png";
+import global from "../../public/images/global-partner-svg.svg";
 import Block from "./Blog";
 import Link from "next/link";
-import PropertyIcon from "@/public/images/property.svg";
-import firstcardIcon from "@/public/images/firstcard.svg";
-import phoneIcon from "@/public/images/phoneicon.svg";
-import login from "@/public/images/login-profile.svg";
+import PropertyIcon from "../../public/images/property.svg";
+import firstcardIcon from "../../public/images/firstcard.svg";
+import phoneIcon from "../../public/images/phoneicon.svg";
+import login from "../../public/images/login-profile.svg";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { logoutAlert } from "../utilities/toast";

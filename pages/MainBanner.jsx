@@ -1,6 +1,6 @@
 import Image from "next/image";
-import BannerImg from "@/public/images/offerBanner.avif";
-import BannerImg2 from "@/public/images/banner2.avif";
+import BannerImg from "../public/images/offerBanner.avif";
+import BannerImg2 from "../public/images/banner2.avif";
 import Bannertwo from "@/components/headers/Bannertwo";
 const MainBanner = () => {
   return (
